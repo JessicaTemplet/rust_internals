@@ -1,0 +1,10 @@
+[package]
+name = "memory_arena"
+version.workspace = true
+edition.workspace = true
+description = "A bump-allocating memory arena built directly on std::alloc, with no external crates."
+license.workspace = true
+
+[lib]
+name = "memory_arena"
+path = "src/lib.rs"

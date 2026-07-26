@@ -1,0 +1,10 @@
+[package]
+name = "thread_pool"
+version.workspace = true
+edition.workspace = true
+description = "A generic thread pool built on the standard library: no rayon, no tokio, no external crates."
+license.workspace = true
+
+[lib]
+name = "thread_pool"
+path = "src/lib.rs"
